@@ -1,9 +1,9 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cn">
 <head>
     <meta charset="utf-8" />
-    <title>Categories: AI | WELCOME TO MY IT WORLD</title>
+    <title>Categories: AI | 我的中文技术博客</title>
     <meta name="author" content="Santos Zhang" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -58,18 +58,13 @@
         </transition>
         <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
     <nav id="desktop-menu">
-        <a class="title" href="/">
-            <span>WELCOME TO MY IT WORLD</span>
-        </a>
+        <!-- <a class="title" href="/">
+            <span>我的中文技术博客</span>
+        </a> -->
         
         <a href="/">
             <i class="fa-solid fa-house fa-fw"></i>
             <span>&ensp;Home</span>
-        </a>
-        
-        <a href="/about">
-            <i class="fa-solid fa-id-card fa-fw"></i>
-            <span>&ensp;About</span>
         </a>
         
         <a href="/archives">
@@ -77,21 +72,11 @@
             <span>&ensp;Archives</span>
         </a>
         
-        <a href="/categories">
-            <i class="fa-solid fa-bookmark fa-fw"></i>
-            <span>&ensp;Categories</span>
-        </a>
-        
-        <a href="/tags">
-            <i class="fa-solid fa-tags fa-fw"></i>
-            <span>&ensp;Tags</span>
-        </a>
-        
     </nav>
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;WELCOME TO MY IT WORLD</span>
+            <span>&emsp;我的中文技术博客</span>
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
@@ -105,39 +90,12 @@
                     </div>
                 </a>
                 
-                <a href="/about">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-id-card fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">About</div>
-                    </div>
-                </a>
-                
                 <a href="/archives">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
                             <i class="fa-solid fa-box-archive fa-fw"></i>
                         </div>
                         <div style="min-width: 100px; max-width: 150%; width: 20%">Archives</div>
-                    </div>
-                </a>
-                
-                <a href="/categories">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-bookmark fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Categories</div>
-                    </div>
-                </a>
-                
-                <a href="/tags">
-                    <div class="item">
-                        <div style="min-width: 20px; max-width: 50px; width: 10%">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">Tags</div>
                     </div>
                 </a>
                 
@@ -197,28 +155,28 @@
                     
                     <span class="tag">
                         
-                        <a href="/tags/AI/" style="color: #00a596">
+                        <a href="/tags/AI/" style="color: #03a9f4">
                             AI
                         </a>
                     </span>
                     
                     <span class="tag">
                         
-                        <a href="/tags/%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/" style="color: #ff7d73">
+                        <a href="/tags/%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/" style="color: #00a596">
                             图像识别
                         </a>
                     </span>
                     
                     <span class="tag">
                         
-                        <a href="/tags/%E6%9D%8E%E9%A3%9E%E9%A3%9E/" style="color: #ffa2c4">
+                        <a href="/tags/%E6%9D%8E%E9%A3%9E%E9%A3%9E/" style="color: #00bcd4">
                             李飞飞
                         </a>
                     </span>
                     
                     <span class="tag">
                         
-                        <a href="/tags/IT/" style="color: #ff7d73">
+                        <a href="/tags/IT/" style="color: #ffa2c4">
                             IT
                         </a>
                     </span>
@@ -235,11 +193,11 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            <!-- 2026 - 2026 WELCOME TO MY IT WORLD -->
+            <!-- 2026 - 2026 我的中文技术博客 -->
             2026 - 
              
             NOW
-             WELCOME TO MY IT WORLD
+             我的中文技术博客
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
